@@ -1,0 +1,419 @@
+*{
+    height: 0;;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+body{
+overflow-x: hidden;
+}
+.head{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    
+}
+.icon{
+    font-size: 50px;
+    width: 33%;
+    height: 100px;
+}
+.bx{
+    width: 150px;
+    height: 50px;
+    margin-left: 35%;
+    font-size: 18px;
+    margin-top: 38px;
+}
+
+.logo{
+    width: 33%;
+    height: 100px;
+    justify-content: center;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    margin-left: 45%;
+    font-size: 30px;
+    margin-top: 6%;
+
+}
+.container{
+    height: 70px;
+    width: 100%;
+   
+}
+.imag2 img{
+    height: 740px;
+    width: 100%;
+}
+.intro{
+    height: 550px;
+    width: 100%;
+    justify-items: center;
+    overflow: hidden;
+    margin-top: 77px;
+}
+.intro-text{
+    height: 500px;
+    width: 100%;
+    margin: 50px;
+}
+.intro-heading{
+    color: white;
+    margin-top: 350px;
+    margin-left: 138px;
+    font-size: 34px;
+}
+.intro-sub {
+    margin-top: 28px;
+    margin-left: 139px;
+    font-size: 19px;
+    color: rgb(235, 229, 229);
+}
+.button{
+    background-color: white;
+  border: none;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 26px;
+  padding-left: 13px;
+  padding-right: 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 45px;
+  margin-left: 147px;
+}
+.button:hover{
+    background: grey;
+}
+.model{
+    width: 100%;
+    height: 57%;
+}
+.model-heading{
+    text-decoration: underline;
+    width: 100px;
+    height: 100px;
+    margin-top: 17px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.model-card{
+    display: flex;
+}
+.card{
+  width: 250px;
+  height: 126px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 25px;
+  transition: transform 0.5s;
+}
+.card img{
+   width: 170px;
+   height: 105px;
+}
+.card a{
+    margin-left: 66px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+.card:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+.split-screen{
+    width: 100%;
+    height: 100%;
+    margin-top: 323px;
+}
+.split1 img{
+    width: 50%;
+    height: 620px;
+    margin-left: 28px;
+
+}
+.split2{
+    margin-left: 50%;
+
+}
+.para{
+    margin-top: 255px;
+    margin-left: 75px;
+}
+.para1{
+    font-size: 28px;
+    color: #333333;
+    letter-spacing: -0.015em;
+}
+.para2{
+    font-size: 28px;
+    color: #333333;
+    letter-spacing: -0.015em;
+}
+.button-div{
+    margin-top: 94px;
+    margin-left: 75px;
+}
+.button2{
+    height: 37px;
+    width: 142px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 17px;
+}
+.button2:hover{
+    background-color: gray;
+
+}
+.split-screen2{
+    margin-top: 690px;
+}
+.electric{
+    width: 100%;
+    height: 200vh;
+}
+.electric-car{
+    width: 100%;
+    height: 200vh;
+    margin-top: 652px;
+}
+.map{
+    display: flex;
+    padding: 1%;
+    height: 100vh;
+    width: 127%;
+    margin-top: 659px;
+}
+.explore{
+    background: black;
+    color: white;
+    height: 100vh;
+    width: 30%;
+}
+.map-img{
+    height: 100vh;
+    width: 100%;
+}
+.img-map{
+    height: 100vh;
+    width:70%
+}
+.locator{
+    margin-top: 50px;
+    margin-left: 20%;
+    letter-spacing: 0.2em;
+}
+.explore-button{
+    margin-top: 500px;
+    margin-left: 30%;
+    letter-spacing: 0.2em;
+    height: 60px;
+    width: 128px;
+    border-style: solid;
+    border-color: white;
+    padding-left: 2px;
+    cursor: pointer;
+}
+.myAudi{
+    width: 100%;
+    height: 75vh;
+    background:green;
+    margin-left: 17px;
+    display: flex;
+}
+.myAudi-txt{
+    width: 60%;
+    height: 75vh;
+    background: black;
+    text-align: flex-end;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    letter-spacing: 0.2em;
+
+}
+.myAudi-pic{
+    width: 40%;
+    height: 75vh;
+}
+.txt-myAudi{
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+.txt-audi{
+    margin-top: 100px;
+    text-align: center;
+}
+.picture-audi{
+    width: 100%;
+    height: 75vh;
+}
+.txt-myAudi2{
+    width: 100px;
+    height: auto;
+    margin-top: 100px;
+}
+.your-car{
+    display: flex;
+    width: 17px;
+    height: 17px;
+}
+.your-carHeading{
+    width: 20;
+    height: 50vh;
+}
+.testDrive-image img{
+    width: 206px;
+    height: 180px;
+    margin-left: 215px;
+}
+.your-carHeading h4{
+    margin-top: 77px;
+    margin-left: 210px;
+    letter-spacing: 0.2em;
+}
+.image-testDrive{
+    margin-left: 17px;
+}
+.testDrive-image a{
+    width: 206px;
+    height: 180px;
+    margin-left: 215px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.testDrive-image a:hover{
+    color: grey;
+}
+.testDrive-image h5 {
+    width: 206px;
+    height: 21px;
+    margin-left: 215px;
+    font-weight: bolder;
+}
+.testDrive-image h6 {
+    width: 206px;
+    height: 21px;
+    margin-left: 215px;
+    font-weight: bolder;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background: black;
+}
+.div-footer1{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    border-bottom: 1px solid #424040
+}
+.div-footerSub1{
+    width: 50%;
+    height: 55vh;
+}
+.div-footerSub1 h3{
+    color: white;
+    margin-left: 45px;
+    margin-top: 65px;
+}
+.div-footerSub1 h5{
+    color: white;
+    margin-left: 45px;
+    margin-top: 45px;
+
+}
+.div-footerSub1 a{
+    text-decoration: none;
+}
+.div-footerSub1 h5:hover{
+    color: #333333;
+}
+.div-footer2{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    border-bottom: 1px solid #424040
+}
+.div-footerSub2{
+    width: 50%;
+    height: 55vh;
+}
+.div-footerSub2 h3{
+    color: white;
+    margin-left: 45px;
+    margin-top: 65px;
+}
+.div-footerSub2 h5{
+    color: white;
+    margin-left: 45px;
+    margin-top: 45px;
+}
+.div-footerSub2 a{
+    text-decoration: none;
+}
+.div-footerSub2 h5:hover{
+    color: #333333;
+}
+.div-footer3{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+}
+.div-footerSub2{
+    width: 50%;
+    height: 55vh;
+}
+.div-footerSub2 h3{
+    color: white;
+    margin-left: 45px;
+    margin-top: 65px;
+}
+.div-footerSub2 h5{
+    color: white;
+    margin-left: 45px;
+    margin-top: 45px;
+}
+.div-footerSub2 a{
+    text-decoration: none;
+}
+.div-footerSub h5:hover{
+    color: #333333;
+}
+.div-footer3{
+
+}
+.footer3-heading{
+    margin-left: 17px;
+    color: white;
+    text-decoration: none;
+}
+.div-footerPara{
+    text-decoration: none;
+    color: white;
+    margin-left: 17px;
+    height: 25vh;
+}
+.div-footerPara h6{
+    margin-top: 100px;
+    height: 20px;
+}
+.footerPara{
+    margin-right: 25px;
+    height: 20px;
+}
